@@ -4,7 +4,6 @@ print ("++++++++++++++++++++++++++++++++++++++++")
 import random
 num_random = random.randint( 0 , 100 )
 number = 0
-print (num_random)
 
 try :
     while number != num_random:
