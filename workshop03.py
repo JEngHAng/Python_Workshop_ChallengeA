@@ -42,8 +42,8 @@ elif cal == 4 :
     print ("            คำนวณปริมาตรทรงกลม ")
     print ("***********************************************")
     radius = float(input("กรอกรัศมี(ไม่ต้องยกกำลัง) : "))
-    radius2 = radius * radius
-    Spherical_volume = 4/3 * 22/7 * radius2
+    radius3 = radius * radius * radius
+    Spherical_volume = 4/3 * ((22/7) * radius3)
     print (f"คำนวณปริมาตรทรงกลม : {Spherical_volume}")
 else :
     print ("กรุณาเลือกการทำงาน 1 , 2 , 3 , 4 , 0 เท่านั้น ")
